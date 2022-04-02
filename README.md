@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile](./assets/design/mobile-screen-capture.png)
+![desktop](./assets/design/Desktop-screencapture.png)
 
 ### Links
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
