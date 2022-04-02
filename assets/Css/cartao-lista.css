@@ -1,0 +1,19 @@
+.cartao__lista--color-main {
+    color: var(--White-main-heading-stats);
+}
+
+.cartao__lista {
+    text-align: center;
+}
+
+li:nth-of-type(odd) {
+    font-weight: var(--Weights-700);
+    font-size: 1.5rem;
+}
+
+li:nth-of-type(even) {
+    font-family: var(--Family-Lexend-Deca);
+    font-size: 1rem;
+    color: var(--Slightly-transparent-white-stat-headings);
+    margin-bottom: 1.2rem
+}

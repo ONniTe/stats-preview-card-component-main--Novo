@@ -1,0 +1,20 @@
+.cartao__titulo {
+    font-weight: var(--Weights-700);
+    font-size: 1.5rem;
+    color: var( --White-main-heading-stats);
+}
+
+.cartao__titulo--modifica {
+    color: var(--Soft-violet-accent)
+}
+
+.cartao__subtitulo {
+    font-family: var(--Family-Lexend-Deca);
+    font-size: var(--font-size);
+    color: var( --Slightly-transparent-white-stat-headings);
+}
+
+.cartao__titulo--margin {
+    margin: 30px;
+    text-align: center;
+}

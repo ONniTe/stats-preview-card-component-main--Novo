@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+    .cartao {
+        min-width: 330px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cartao {
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+        min-height: unset;
+        max-width: 54rem;
+        width: auto;
+        display: grid;
+        grid-template: repeat(3, auto) / repeat(2, 1fr);
+        grid-template-areas: 'titulo imagem' 'subtitulo imagem' 'status imagem ';
+    }
+    .cartao__imagem {
+        border-radius: 0px 10px 10px 0px;
+        width: 105%;
+        grid-area: imagem;
+        grid-column: 2;
+        grid-row: 1/4;
+        height: initial;
+    }
+    .cartao__imagem:before {
+        border-radius: 0px 10px 10px 0px;
+    }
+    .cartao__titulo {
+        grid-area: titulo;
+        margin-top: 30px !important;
+    }
+    .cartao__titulo--margin {
+        text-align: left;
+        line-height: normal;
+        margin: 0px;
+        padding: 25px;
+        padding-bottom: 35px;
+    }
+    .cartao__subtitulo {
+        margin-top: 10px;
+        line-height: 1.5em;
+        grid-area: subtitulo;
+        padding: 25px;
+        padding-top: 0px;
+    }
+    .cartao__lista {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 'numero numero1 numero2' 'titulo titulo1 titulo2';
+        grid-area: status;
+    }
+}

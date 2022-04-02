@@ -1,0 +1,33 @@
+/* Numero */
+
+li {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.cartao__lista--numero {
+    grid-area: numero;
+}
+
+.cartao__lista--numero1 {
+    grid-area: numero1;
+}
+
+.cartao__lista--numero2 {
+    grid-area: numero2;
+}
+
+
+/* titulo */
+
+.cartao__lista--titulo {
+    grid-area: titulo;
+}
+
+.cartao__lista--titulo1 {
+    grid-area: titulo1;
+}
+
+.cartao__lista--titulo2 {
+    grid-area: titulo2;
+}
